@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="MaRizals, a Junior FrontEnd Developer and Designer">
+  <meta name="keywords" content="marizals, damar rizki afrizal, design">
+  <meta name="robots" content="index, follow" />
+  <meta property="og:image" content="https://marizals.my.id/Logo.png" />
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <link rel="preload" as="image" href="assets/logos/marizals.png">
+  <link rel="stylesheet" href="index.css">
+  <title>MaRizals - Junior Dev</title>
+</head>
+<body>
+  <nav>
+    <div class="nav" id="navbar">
+      <img src="assets/logos/marizals.png" alt="marizals logo" />
+      <div id="hamburger" class="hamburger" onclick="change(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+    <div id="menu" class="menu">
+        <a href="#about" onclick="CloseM()">About</a>
+        <a href="#" onclick="CloseM()">Project</a>
+        <a href="mailto:damarizki@marizals.my.id">Contact</a>
+    </div>
+    <div onclick="Close(this)" id="navClose" class="nav-close"></div>
+  </nav>
+  <header>
+    <div class="nav-space"></div>
+    <h1>Hi. I'm Damar Rizki Afrizal.<br/>A <span id="skill"></span><span id="cursor">|</span></h1>
+    <button id="contact" onclick="location.href = 'mailto:damarizki@marizals.my.id';">Contact Me</button>
+  </header>
+  <main>
+    <div id="about" class="about-space"></div>
+    <div class="round-main" id="frAbout"></div>
+    <div class="header-space"></div>
+    <h2 class="about"><a href="#frAbout">About Me</a></h2>
+    <p>Hi everyone, my name is Damar Rizki Afrizal, you can call me Damar, the name MaRizals is taken from the words Da<strong>Mar</strong> <strong>Ri</strong>zki Afri<strong>zal</strong>. I don't know if it's the right or wrong spelling, because I'm not very good at English.</p>
+    <br>
+    <p>Coding has been my hobby since I was 14 years old, I got interested in coding because of my friend <a href="https://ditcoders.my.id">DitCoders</a>. Besides coding, I like watching anime and I also really like math because <span class="math">"Math is Fun"</span>😂.</p>
+    <h2 class="title">Education</h2>
+    <div class="edu">
+      <div class="bar-edu">
+        <div class="point-edu"></div>
+        <div class="point-edu"></div>
+      </div>
+      <div class="text-edu">
+        <div class="univ">
+          <h3>University</h3>
+          <br><br><br><br>
+        </div>
+        <div class="vocational">
+          <h3>Vocational High School</h3>
+          <p>SMKN 1 Purworejo</p>
+          <p>Automotive Engineering</p>
+          <p class="edu-year">2022 - present</p>
+        </div>
+      </div>
+    </div>
+    <h2 class="title">Skills</h2>
+    <div class="skill-col">
+      <div class="skill-row">
+        <div class="skill">
+          <img src="assets/logos/html.svg" alt="HTML">
+        </div>
+        <div class="skill">
+          <img src="assets/logos/css.svg" alt="CSS">
+        </div>
+      </div>
+      <div class="skill-row">
+        <div class="skill">
+          <img src="assets/logos/javascript.svg" alt="JavaScript">
+        </div>
+        <div class="skill">
+          <img src="assets/logos/php.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Made by <a href="https://marizals.my.id">MaRizals</a></p>
+  </footer>
+  <script type="text/javascript" charset="utf-8" src="index.js">
+  </script>
+</body>
+</html>
